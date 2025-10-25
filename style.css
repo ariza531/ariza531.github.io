@@ -1,0 +1,64 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  background-color: #f9fbfd;
+}
+.navbar-brand {
+  font-weight: 700;
+  color: #0d6efd !important;
+}
+.hero-section {
+  background: linear-gradient(135deg, #0d6efd 0%, #1e90ff 100%);
+  color: white;
+  padding: 100px 0;
+}
+.section-title {
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #0d6efd;
+}
+.feature-card {
+  border-radius: 12px;
+  padding: 1.5rem;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+}
+.promo-badge {
+  background: #ff6b35;
+  color: white;
+  font-weight: bold;
+  padding: 0.4rem 1rem;
+  border-radius: 30px;
+  display: inline-block;
+  font-size: 0.95rem;
+}
+footer {
+  background-color: #0d6efd;
+  color: white;
+  padding: 40px 0;
+}
+.btn-cta {
+  background-color: #ff6b35;
+  border: none;
+  font-weight: 600;
+}
+.btn-cta:hover {
+  background-color: #e55a2b;
+  color: white;
+}
+.social-icon {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: transform 0.2s;
+}
+.social-icon:hover {
+  transform: scale(1.2);
+}
